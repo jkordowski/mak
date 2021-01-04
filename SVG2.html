@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang='pl'>
+<head>
+<title>SVG Animacje</title>
+<meta charset='utf-8'>
+<style>
+</style>
+</head>
+
+<body>
+<svg width='1000' height='1000'>
+
+<rect x='100' y='100' width='60' height='30' 
+	stroke='red' stroke-width='green' fill='yellow' >
+	<animate 
+		attributeName="x" 
+		begin='4s'
+		from="100" to="1000" 
+		dur='2s' 
+		repeatCount="indefinite" 
+	/>
+	<animate 
+		attributeName="y" 
+		begin='4s'
+		from="100" to="500" 
+		dur='2s' 
+		repeatCount="indefinite" 
+	/>
+	<animate 
+		attributeName="fill" 
+		begin='4s'
+		from="yellow" to="red" 
+		dur='1s' 
+		repeatCount="1"
+		fill='freeze'		
+	/>
+
+</svg>
+<pre>
+being='click' being='2s'
+repeatCount='indefinite' repeatCount='4'
+fill='freeze'
+</pre>
+</body>
+</html>

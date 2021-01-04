@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang='pl'>
+<head>
+<title>SVG Path</title>
+<meta charset='utf-8'>
+<style>
+</style>
+</head>
+
+<body>
+<svg width='1000' height='1000'>
+
+<circle cx='300' cy='300' r='100' />
+<path d='M300,201 a49,49 0 0 1 10,100 a49,49 0 0 0 -10,99 a99,99 0 0 1 6,-200' stroke='black' fill='white'/>
+<circle cx='300' cy='350' r='15' fill='white' />
+<circle cx='300' cy='250' r='15' fill='black' />
+
+<circle cx='300' cy='600' r='100' stroke='blue' fill='none' />
+<path d='M150,600 h 300' stroke-width='2' stroke='black' />
+<path d='M300,450 v 300' stroke-width='2' stroke='black' />
+<path d='M300,550 h 85 v 50' stroke-width='2' stroke='lightgreen' fill='none'/>
+<text x='290' y='550' fill='lightgreen'>y</text>
+<text x='380' y='615' fill='lightgreen'>x</text>
+<text x='390' y='550' fill='lightgreen'>A(x,y)</text>
+<path d='M300,600 l 85,-50' stroke-width='2' stroke='red' fill='none'/>
+<text x='305' y='615' fill='red'>(cx, cy)</text>
+<text x='330' y='595' fill='red'>a</text>
+<text x='330' y='575' fill='red'>r</text>
+
+</svg>
+</body>
+</html>
